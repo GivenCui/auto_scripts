@@ -3,7 +3,7 @@
 
 ```sh
 # 下载.bashrc_docker并编辑.bashrc引用并重载.bashrc
-wget -P ~ <url> &&  echo "[ -f ~/.bashrc_docker ] && . ~/.bashrc_docker" >> ~/.bashrc; source ~/.bashrc
+wget -P ~ https://raw.githubusercontent.com/GivenCui/auto_scripts/master/.bashrc_docker &&  echo "[ -f ~/.bashrc_docker ] && . ~/.bashrc_docker" >> ~/.bashrc; source ~/.bashrc
 
 # 使用举例
 docker-pid <container>
